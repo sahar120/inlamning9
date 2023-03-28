@@ -8,8 +8,8 @@ const port = 3000;
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "password",
-  database: "databasnamn",
+  password: "",
+  database: "webbserverprogrammering",
 });
 
 // Öppna anslutningen
